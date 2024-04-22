@@ -5,7 +5,7 @@ export default function AddStudent({handleAddStudent}) {
 	const [image, setImage] = useState('')
 	const [phone, setPhone] = useState('')
 	const [email, setEmail] = useState('')
-	const [program, setProgram] = useState([0])
+	const [program, setProgram] = useState('-- None --')
 	const [graduationYear, setGraduationYear] = useState(2023)
 	const [graduated, setHasGraduated] = useState(false)
 
